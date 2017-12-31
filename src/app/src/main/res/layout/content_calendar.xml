@@ -27,6 +27,7 @@
                 android:id="@+id/monthCalendarRadioButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:checked="true"
                 android:text="@string/month" />
 
             <RadioButton
@@ -42,6 +43,34 @@
                 android:text="@string/date" />
 
         </RadioGroup>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_column="0"
+            android:layout_row="1">
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <CalendarView
+                    android:id="@+id/monthCalendarView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_row="0"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_row="1"
+                    android:text="sample"/>
+
+            </GridLayout>
+
+        </ScrollView>
 
     </GridLayout>
 </android.support.constraint.ConstraintLayout>
