@@ -220,3 +220,4 @@ gradle-app.setting
 # gradle/wrapper/gradle-wrapper.properties
 
 # End of https://www.gitignore.io/api/git,java,gradle,windows,android,tortoisegit,androidstudio
+src/.idea/saveactions_settings.xml
